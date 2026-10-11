@@ -4,7 +4,22 @@ h1{
     background-color:rgb(8, 97, 145);
 font-weight: normal;
 }
+IMG{
+  display: block;
 
+}
 
+.highlight_01 {background-color:rgb(235, 71, 0);}
 
+/*index.html file*/
+body{
+background-color:springgreen;}
 
+.background_01 {background-color:springgreen;}
+#main {
+  background-color:rgb(6, 218, 137);
+  padding: 50px;
+  margin: 100px;
+  box-shadow: #ff0000 0 -1px 4px, ff0 0 -2px 10px, 
+
+}

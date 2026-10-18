@@ -17,3 +17,67 @@ margin: 0 auto 0auto;
 background: white;
 padding: 30px;
 }
+.top-section {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+}
+#introduction {
+    background: #6b9cff;
+    padding: 20px;
+    border-left: 6px solid #cb1400;
+    flex: 2;
+}
+#introduction h2 {
+    font-style: italic;
+    margin-top: 0;
+}
+#introduction p {
+    font-size: 120%;
+    line-height: 1.5;
+}
+.profile {
+    text-align: center;
+    flex: 1;
+}
+.profile img {
+    width: 220px;
+    border-radius: 12px;
+}
+.profile p {
+    font-size: 90%;
+}
+.navigation {
+    background: #c42222;
+    padding: 20px;
+    border-radius: 12px;
+}
+.navigation h2 {
+    margin-top: 0;
+}
+.navigation li {
+    margin-bottom: 8px;
+}
+.navigation a {
+    color: #519dc3;
+    font-weight: bold;
+}
+
+@media (max-width: 640px) {
+    body {
+        padding: 20px;
+    }
+
+    #page {
+        padding: 20px;
+    }
+
+    .top-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+    

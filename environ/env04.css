@@ -1,0 +1,81 @@
+body{
+    background: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no repeat;
+    min-height: 100vh;
+}
+img{
+    width: 200px;
+
+}
+h1,
+h2{
+    color:rgb(0, 45, 208);
+    font-family: sans-serif;
+    text-shadow: 5px, solid, rgb(208, 0, 0);
+h3{
+    color: rgb(168, 0, 0);
+    font-family: sans-serif;
+}
+    
+}
+#page {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    background:rgb(208, 0, 0);
+    padding: 30px;
+}
+.top-section {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+}
+#introduction {
+    background:rgb(208, 0, 0);
+    padding: 20px;
+    border-left:rgb(5, 208, 226);
+    flex: 2;
+}
+#introduction {
+    font-style: italic;
+    margin-top: 0;
+}
+#introduction {
+    font-size: 120%;
+    line-height: 1.5;
+    background: rgb(208, 0, 0);
+}
+#information {
+    background: rgb(0, 84, 169);
+    padding: 20px;
+    border-radius: 10px;
+}
+#information img{
+    width:300px;
+    border-radius: 100px;
+}
+.landscape {
+    text-align: center;
+    flex: 1;
+    background: rgb(208, 0, 0);
+}
+.profile img {
+    width: 220px;
+    border-radius: 12px;
+}
+.profile p {
+    font-size: 90%;
+}
+.characters {
+    background:rgb(5, 208, 226);
+    padding: 20px;
+    border-radius: 12px;
+}
+.characters h2 {
+    margin-top: 0;
+}
+.characters li{
+    margin-bottom: 8px;
+}
